@@ -1,3 +1,6 @@
+/src/*.htm
+.DS_Store
+
 # Logs
 logs
 *.log

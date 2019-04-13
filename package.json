@@ -1,0 +1,24 @@
+{
+  "name": "relaxed-broken-assets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pdf:bug": "relaxed src/test.pug build/test-bug.pdf --temp build --build-once && open build/test-bug.pdf",
+    "pdf:working": "relaxed src/test.pug build/test-working.pdf --build-once && open build/test-working.pdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hinok/relaxed-broken-assets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hinok/relaxed-broken-assets/issues"
+  },
+  "homepage": "https://github.com/hinok/relaxed-broken-assets#readme",
+  "dependencies": {
+    "relaxedjs": "^0.2.1"
+  }
+}
